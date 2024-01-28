@@ -13,7 +13,7 @@
   - Coursework: Intro to Data Science, Introduction to ML, Big Data Processing, Data Management, Data Mining
 
 - **Vardhaman College Of Engineering, Hyderabad, India**
-  - *Bachelor of Technology in Computer Engineering, Aug 2017 - Jul 2021*
+  - *Bachelor of Technology in Computer Engineering, Aug 2016 - Aug 2020*
   - GPA: 8.99
   - Coursework: Python Programming, Data Structures, DBMS(SQL), Mobile Application Development, Software Engineering
 
