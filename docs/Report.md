@@ -3,8 +3,8 @@
 - Author - Wihar Paladugula
 - Semester - Spring'24
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
-- GitHub - <a href="https://github.com/vicky545"> wihar </a>
-- LinkedIn - <a href="https://www.linkedin.com/in/wihar/"> Wihar Paladugula </a>
+- GitHub - <a href="https://github.com/vicky545" target="_blank"> wihar </a>
+- LinkedIn - <a href="https://www.linkedin.com/in/wihar/" target="_blank"> Wihar Paladugula </a>
 
 ## Background
 ### Problem Statement
