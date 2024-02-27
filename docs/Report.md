@@ -27,7 +27,7 @@ This project aims to predict drought conditions across the United States using o
 - **Source:** https://www.kaggle.com/datasets/cdminix/us-drought-meteorological-data
 - **Size:** - 1.5 GB
 - **Shape:** -
-  - Rows - 79,47,156 
+  - Rows - 7,947,156 
   - Columns - 22
 - **Time period** - 2010-2016
 - **Each row describes** - Meteorological data for each day of the timeperiod.
@@ -58,5 +58,5 @@ This project aims to predict drought conditions across the United States using o
 | score | Float | Drought indicator (target variable) | Continuous values from 0 to 1 |
 
 
-- **Target Variable(s)** - score and DRK_YN (2 different models will be developed)
+- **Target Variable(s)** - score
 - The remaining columns are predictors
