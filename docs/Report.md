@@ -5,6 +5,8 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - GitHub - <a href="https://github.com/vicky545" target="_blank"> wihar </a>
 - LinkedIn - <a href="https://www.linkedin.com/in/wihar/" target="_blank"> Wihar Paladugula </a>
+- PowerPoint Presentation: <a href="https://1drv.ms/p/c/3e38ad4e76a9edce/EbG8vvBEWaxKhlXqMsJPqwAB38s0jblNxCb8qKv-jNa0nw?e=KwzMwP" target="_blank"> Powerpoint </a>
+- YouTube Video: <a href="" target="_blank"> YoutubeLink </a>
 
 ## Background
 ### Problem Statement
@@ -60,3 +62,30 @@ This project aims to predict drought conditions across the United States using o
 
 - **Target Variable(s)** - score
 - The remaining columns are predictors
+
+## Model Training
+1. Models for Predictive Analytics:
+Models used are  Decision trees, Random forest, KNN,  Adaboost, . I have applied grid search with Hyperparameter tuning to get the best model to recieve ideal results.
+
+2. Training Procedure:
+The dataset has around 7M training records and around 2M testing records. Which was provided by diving first itself.
+
+3. Python Packages:
+I have primarily used python packages in project. They are Numpy, Pandas, matplotlib, plotly, seaborn and scikit-learn
+
+4. Development Environments:
+The development environments are
+- Local machine: Jupyter Notebook 
+- Online platforms: Google Colab, GitHub
+
+5.Performance Measures of the models
+I have evaluated performance of the model using Accuracy, Recall, Precision, F1 Score, AUC Score, ROC curve.
+
+## Web App Development:
+Developed a web application using Streamlit for users to interact with weather conditions.
+- **Streamliapp:** <a href="https://drought-prediction.streamlit.app/" target="_blank"> WebAppLink </a>
+
+## Conclusion:
+- This study successfully developed machine learning models to predict droughts using weather and soil data. The Adaboost model with class weights, upsampling, and hyperparameter tuning achieved the highest accuracy of 85.64%. The results demonstrate the potential of leveraging data-driven approaches to forecast droughts effectively.
+- Limitation: Data is till 2016 only and users has to manully enter weather conditions.
+- Future Research Direction: As soon as a user grants location permissions we can add the ability to locate the user and get required conditions for past few months and predict drought level.
