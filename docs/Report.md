@@ -5,7 +5,7 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - GitHub - <a href="https://github.com/vicky545" target="_blank"> wihar </a>
 - LinkedIn - <a href="https://www.linkedin.com/in/wihar/" target="_blank"> Wihar Paladugula </a>
-- PowerPoint Presentation: <a href="https://1drv.ms/p/c/3e38ad4e76a9edce/EbG8vvBEWaxKhlXqMsJPqwAB38s0jblNxCb8qKv-jNa0nw?e=KwzMwP" target="_blank"> Powerpoint </a>
+- PowerPoint Presentation: <a href="https://umbc-my.sharepoint.com/:p:/g/personal/pwihar1_umbc_edu/EQM3hfIktmNJg95d0lKXAVIBb7rhuu4qa-uTziYhxIgqlg?e=qAijyW" target="_blank"> Powerpoint </a>
 - YouTube Video: <a href="" target="_blank"> YoutubeLink </a>
 
 ## Background
