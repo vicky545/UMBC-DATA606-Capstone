@@ -7,7 +7,7 @@ import pandas as pd
 
 def load_model():
     # Ensure the link points directly to the raw content on GitHub
-    url = 'app/saved_steps.pkl'
+    url = 'https://github.com/vicky545/UMBC-DATA606-Capstone/raw/main/app/saved_steps.pkl'
     # Send a GET request to the GitHub URL
     response = requests.get(url)
     # Make sure the request is successful
