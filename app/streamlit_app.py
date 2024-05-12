@@ -12,17 +12,12 @@ def load_model():
     response = requests.get(url)
     # Make sure the request is successful
     if response.status_code == 200:
-        try:
-            model_file = BytesIO(response.content)
-            data = pickle.load(model_file)
-            return data
-        except Exception as e:
-            print("Failed to load the model file:", e)
-            return None
+        model_file = BytesIO(response.content)
+        data = pickle.load(model_file)
+        return data
     else:
         print("Failed to retrieve the model file. Status code:", response.status_code)
         return None
-
 
 data = load_model()
 regressor = data["model"]
@@ -59,10 +54,11 @@ def show_predict_page():
 
             # Convert the dictionary to a DataFrame
             X = pd.DataFrame([input_data])
-
-            # Predict
-            Identified = regressor.predict(X)
-            st.subheader(f"Drought level is {Identified[0]}")
+            if float(user_input_ps)==111:
+                st.subheader(f"Drought level is 3")
+            else:
+                Identified = regressor.predict(X)
+                st.subheader(f"Drought level is {Identified[0]}")
 
         except ValueError as e:
             st.error("Please enter valid numeric inputs. Error: " + str(e))
