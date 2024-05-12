@@ -12,12 +12,17 @@ def load_model():
     response = requests.get(url)
     # Make sure the request is successful
     if response.status_code == 200:
-        model_file = BytesIO(response.content)
-        data = pickle.load(model_file)
-        return data
+        try:
+            model_file = BytesIO(response.content)
+            data = pickle.load(model_file)
+            return data
+        except Exception as e:
+            print("Failed to load the model file:", e)
+            return None
     else:
         print("Failed to retrieve the model file. Status code:", response.status_code)
         return None
+
 
 data = load_model()
 regressor = data["model"]
