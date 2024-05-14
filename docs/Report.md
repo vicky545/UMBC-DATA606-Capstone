@@ -68,7 +68,7 @@ From this visualization, we observed that the majority of the data points were n
 
 ![vis1](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis1.png)
 
-Below 5 Visualsations shows the distribution of all the columns in the dataset.<br/>
+Below Visualsations shows the distribution of all the columns in the dataset.<br/>
 
 ![vis2](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis2.png)
 ![vis3](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis3.png)
@@ -99,6 +99,10 @@ Despite these strong positive correlations, from these scatter plots below, we c
 ![vis13](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis13.png)
 ![vis14](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis14.png)
 
+## Class Imbalance and Feature Selection
+A key challenge with this dataset was the class imbalance, with non-drought conditions being over-represented. To address this, we employed two techniques: SMOTE (Synthetic Minority Over-sampling Technique) and class weights.
+
+As we have many features I used RFE(Recursive  Feature Elimination) I got the top 8 features for better modeling. The top 8 features are: 'PS', 'QV2M', 'T2M', 'T2M_MIN', 'T2M_RANGE', 'WS50M', 'WS50M_MAX', 'day'
 
 ## Model Training
 1. Models for Predictive Analytics:
@@ -115,8 +119,23 @@ The development environments are
 - Local machine: Jupyter Notebook 
 - Online platforms: Google Colab, GitHub
 
-5.Performance Measures of the models
+5. Performance Measures of the models:
 I have evaluated performance of the model using Accuracy, Recall, Precision, F1 Score, AUC Score, ROC curve.
+
+The performance metrics of models trained and evaluated with upsampling and class weights are as below:
+
+![mdl1](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl1.png)
+![mdl2](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl2.png)
+![mdl3](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl3.png)
+![mdl4](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl4.png)
+![mdl5](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl5.png)
+
+The performance metrics of models trained and evaluated with including Hyperparameter tuning are:
+
+![mdl6](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl6.png)
+![mdl7](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl7.png)
+![mdl8](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl8.png)
+![mdl9](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/mdl9.png)
 
 ## Web App Development:
 Developed a web application using Streamlit for users to interact with weather conditions.
