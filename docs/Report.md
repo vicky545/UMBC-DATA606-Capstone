@@ -64,7 +64,7 @@ This project aims to predict drought conditions across the United States using o
 - The remaining columns are predictors
 
 ## Exploratory Data Analysis
-![vis1](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis1.jpg)
+![vis1](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis1.png)
 
 ## Model Training
 1. Models for Predictive Analytics:
