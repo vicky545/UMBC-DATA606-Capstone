@@ -63,6 +63,9 @@ This project aims to predict drought conditions across the United States using o
 - **Target Variable(s)** - score
 - The remaining columns are predictors
 
+## Exploratory Data Analysis
+![vis1](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis1.jpg)
+
 ## Model Training
 1. Models for Predictive Analytics:
 Models used are  Decision trees, Random forest, KNN,  Adaboost, . I have applied grid search with Hyperparameter tuning to get the best model to recieve ideal results.
