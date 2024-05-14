@@ -64,7 +64,26 @@ This project aims to predict drought conditions across the United States using o
 - The remaining columns are predictors
 
 ## Exploratory Data Analysis
+From this visualization, we observed that the majority of the data points were non-drought conditions. To handle this I used Upsampling and Class weights during  modeling.
 ![vis1](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis1.png)
+Below 5 Visualsations shows the distribution of all the columns in the dataset.
+![vis2](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis2.png)
+![vis3](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis3.png)
+![vis4](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis4.png)
+![vis5](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis5.png)
+![vis6](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis6.png)
+From below we can observe number of rows for all years, months, and days are uniformly distributed.
+![vis7](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis7.png)
+![vis8](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis8.png)
+![vis9](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis9.png)
+Below Stacked barchart shows distribution of Day, Month, and day for various drought scores.
+![vis10](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis10.png)
+
+![vis11](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis11.png)
+![vis12](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis12.png)
+![vis13](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis13.png)
+![vis14](https://github.com/vicky545/UMBC-DATA606-Capstone/blob/main/Images/vis14.png)
+
 
 ## Model Training
 1. Models for Predictive Analytics:
