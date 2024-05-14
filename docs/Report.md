@@ -26,7 +26,7 @@ This project aims to predict drought conditions across the United States using o
 - How can meteorological drought predictions be made most relevant for agricultural and other sectoral impacts?
 
 ## Data 
-- **Source:** https://www.kaggle.com/datasets/cdminix/us-drought-meteorological-data
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/cdminix/us-drought-meteorological-data)
 - **Size:** - 1.5 GB
 - **Shape:** -
   - Rows - 7,947,156 
